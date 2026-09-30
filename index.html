@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Solar System</title>
+    <meta name="description" content="Learn about the solar system in a way that you'll never forget any information provided. Keys Solar System Learning is here to assist you!">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+<div class="site-intro">
+    <img src="logo.png.jpeg" alt="Keys Solar System Learning Logo" class="logo">
+    <h1>Welcome to the Keys Solar System Learning</h1>
+    <p>Your gateway to uderstanding the wonders of space</p>
+</div>
+
+<nav class="business-nav">
+    <ul class="business-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+    <nav>
+        <div class="brand">The Solar <span>System</span></div>
+        <ul class="nav-links">
+            <li><a href="#mercury">Mercury</a></li>
+            <li><a href="#venus">Venus</a></li>
+            <li><a href="#earth">Earth</a></li>
+            <li><a href="#mars">Mars</a></li>
+            <li><a href="#jupiter">Jupiter</a></li>
+            <li><a href="#saturn">Saturn</a></li>
+            <li><a href="#uranus">Uranus</a></li>
+            <li><a href="#neptune">Neptune</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section  class="stage-wrap" id="home">
+    <div class="stage-intro">
+        <h1>Eight planets, one star, one shared orbit</h1>
+        <p>A scaled-down, simplified view of our solar system. Orbits move at different relative speeds - hover or tap a planet for itts name, or use the nav bar to jump straight to its facts below.</p>
+    </div>
+
+    <div class="solar-system" id="solarSystem">
+        <div class="sun"></div>
+        <div claSS="sun-label">Sun</div>
+
+        <div class="orbit" style="width:16%; height:16;">
+            <div class="orbit-spin" style="--period:4.4s;">
+                <a href="#mercury" class="planet-anchor" style="--period:4.4s;">
+                    <div class="planet" style="width:8px;height:8px;background:#b1a79b;"></div>
+                    <div class="planet-label">Mercury</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:27%;" height:27%;">
+            <div class="orbit-spin" style="--period:7.2s;">
+                <a href="#venus" class="planet-anchor" style="--period:7.2s;">
+                    <div class="planet" style="width:13px;height:13px;background:#d9b98a"></div>
+                    <div class="planet-label">Venus</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:38%; height:38%;">
+            <div class="orbit-spin" style="--period:12s;">
+                <a href="#earth" class="planet-anchor" style="--period:12s;">
+                    <div class="planet" style="width:14px;height:14px;background:#4d90d9;"></div>
+                    <div class="planet-label">Earth</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:49%; height:49%;">
+            <div class="orbit-spin" style="--period:22.6s;">
+                <a href="#mars" class="planet-anchor" style="--period:22.6s;">
+                    <div class="planet" style="width:10px;height:10px;background:#c1602f;"></div>
+                    <div class="planet-label">Mars</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:64%;" height:64%;">
+            <div class="orbit-spin" style="--period:80s;">
+                <a href="#jupiter" class="planet-anchor" style="--period:80s;">
+                    <div class="planet" style="width:26px;height:26px;background:#d8ad83;"></div>
+                    <div class="planet-label">Jupiter</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:78%" height:78%;">
+            <div class="orbit-spin" style="--period:150s;">
+                <a href="#saturn" class="planet-anchor" style="--period:150s;">
+                    <div class="planet" style="width:22px;height:22px;background:#e3caa1;"></div>
+                    <div class="planet-label">Saturn</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:89%" height:89%;">
+            <div class="orbit-spin" style="--period:280s;">
+                <a href="#uranus" class="planet-anchor" style="--period:280s;">
+                    <div class="planet" style="width:17px;height:17px;background:#a6e0e0;"></div>
+                    <div class="planet-label">Uranus</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="orbit" style="width:98%; height:98%;">
+            <div class="orbit-spin" style="--period:400s;">
+                <a href="#neptune" class="planet-anchor" style="--period:400s;">
+                    <div class="planet" style="width:17px;height:17px;background:#4a68d9;"></div>
+                    <div class="planet-label">Neptune</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="toggleBtn" type="button">Pause Orbits</button>
+    </div>
+    </section>
+
+    <main>
+        <div class="section-heading">
+            <h2>Planet facts</h2>
+            <p>Distances and periods are approximate, rounded for readability.</p>
+        </div>
+
+        <article class="planet-card" id="mercury">
+            <div class="swatch" style="background:#b1a79b;"></div>
+            <div>
+                <h3>Mercury</h3>
+                <p class="fact">The smallest planet and the closest to the sun, with almost no atmosphere to hold in the heat.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>88 days</b>Orbit period</div>
+                    <div class="stat"><b>57.9M km</b>Distance from Sun</div>
+                    <div class="stat"><b>0</b>Moons</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="venus">
+            <div class="swatch" style="background:#d9b98a;"></div>
+            <div>
+                <h3>Venus</h3>
+                <p class="fact">A thick, toxic atmosphere traps heat, making Venus the hottest planet despite not being closest to the sun.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>225 days</b>Orbit period</div>
+                    <div class="stat"><b>108.2M km</b>Distance from Sun</div>
+                    <div class="stat"><b>0</b>Moons</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="earth">
+            <div class="swatch" style="background:#4d90d9;"></div>
+            <div>
+                <h3>Earth</h3>
+                <p class="fact">The only known planet with liquid surface water and life, protected by a magnetic field with a stable atmosphere.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>365.25 days</b>Orbit period</div>
+                    <div class="stat"><b>149.6M km</b>Distance from Sun</div>
+                    <div class="stat"><b>1</b>Moon</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="mars">
+            <div class="swatch" style="background:#c1602f;"></div>
+            <div>
+                <h3>Mars</h3>
+                <p class="fact">Known as the Red Planet for its iron-oxide-covered surface, home to the largest volcano in the solar system.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>687 days</b>Orbit period</div>
+                    <div class="stat"><b>227.9M km</b>Distance from Sun</div>
+                    <div class="stat"><b>2</b>Moons</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="jupiter">
+            <div class="swatch" style="background:#c1602f;"></div>
+            <div>
+                <h3>Jupiter</h3>
+                <p class="fact">The largest planet in the solar system, a gas giant with a Great Red Spot storm that has raged for centuries.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>11.9 years</b>Orbit period</div>
+                    <div class="stat"><b>778.5M km</b>Distance from Sun</div>
+                    <div class="stat"><b>95+</b>Moons</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="saturn">
+            <div class="swatch" style="background:#e3caa1;"></div>
+            <div>
+                <h3>Saturn</h3>
+                <p class="fact">Famous for its dramatic ring system made of ice and rock, and the least dense - it would float in water.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>29.5 years</b>Oribit period</div>
+                    <div class="stat"><b>1.43B km</b>Distance from Sun</div>
+                    <div class="stat"><b>140+</b>Moons</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="planet-card" id="uranus">
+            <div class="swatch" style="background:#a6e0e0;"></div>
+            <div>
+                <h3>Uranus</h3>
+                <p class="fact">An ice giant that rotates almost completely on its side, giving it extreme, decades-long seasons.</p>
+                <div class="stat-row">
+                        <div class="stat"><b>84 years</b>Orbit period</div>
+                        <div class="stat"><b>2.87B km</b>Distance from Sun</div>
+                        <div class="stat"><b>27</b>Moons</div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="planet-card" id="neptune">
+            <div class="swatch" style="background:#4a68d9;"></div>
+            <div>
+                <h3>Neptune</h3>
+                <p class="fact">The most distant planet, with the fastest winds in the solar system, reaching over 2,000 km/h.</p>
+                <div class="stat-row">
+                    <div class="stat"><b>165 years</b>Orbit period</div>
+                    <div class="stat"><b>4.5B km</b>Distance from Sun</div>
+                    <div class="stat"><b>14</b>Moons</div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <section class="info-section" id="about">
+        <h2>About</h2>
+        <p>Hi there! My name is Nxusalezulu Msibi. I'm a uni student doing engineering in cybersecurity and digital forensics. I developed this website to help others learn about our solar system in a fun and cool way making it easier to acquire knowledge.</p>
+    </section>
+
+    <section class="info-section" id="services">
+        <h2>Services</h2>
+        <p>I can develop a website for you just the way you want it to look like, maybe you want to promote your business for example.</p>
+    </section>
+
+    <section class="info-section" id="contact">
+        <h2>Contact</h2>
+        <p>Have a question, a project idea, or want to bring this to your classroom? Get in touch.</p>
+        <div class="contact-details">
+            <a href="mailto:nxusakeys0@gmail.com">nxusakeys0.com</a>
+            <a href="#home">Back to top</a>
+        </div>
+    </section>
+
+    <footer>
+     &copy; 2026 KeysSolarSystemLearning. All Rights Reserved - orbital periods are relative, not to scale.
+    </footer>
+
+    <script>
+        const stage = document.getElementById('solarSystem');
+        const toggleBtn = document.getElementById('toggleBtn');
+
+        toggleBtn.addEventListener('click', () => {
+            stage.classList.toggle('paused');
+            toggleBtn.textContent = stage.classList.contains('paused') ? 'Resume Orbits' : 'Pause Orbits';
+        });
+    </script>
+
+</body>
+</html>
